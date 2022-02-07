@@ -27,9 +27,9 @@ The t-tests for samples of Lots #1, 2, 3 show low p-values and means very close 
 ![screenshot of t-tests](t-tests.png)
 
 ## Study Design: MechaCar vs Competition
-Tom compare how the MechaCar performs against the competition, a study could be performed to find the correlation between MPG and cost for the MechaCar and various other brands. 
+To compare how the MechaCar performs against the competition, a study could be performed to find the correlation between MPG and cost for the MechaCar and various other brands. 
  
-We could start with a hypothesis that states the MechaChar has at least a 10% lower correlation (slope) on MPG vs. cost compared to other brands and y-intercept (related to fixed costs) at least 20% lower than other brands.
-The null hypothesis would state the opposite, that the MechaChar has a correlation of MPG vs. cost 10% higher or a y-intercept 20% higher than any other brand.
+We could start with a hypothesis that states the MechaChar has at least a 10% lower correlation (slope) on MPG vs. cost relation, compared to other brands; and a y-intercept (related to fixed costs) at least 20% lower than other brands.
+The null hypothesis would state the opposite, that the MechaChar has a correlation of MPG vs. cost 10% higher; or a y-intercept 20% higher than any other brand.
 
-To calculate this, first we would need to secure MPG and cost data for each car model on the other brands, as well as the MechaCar. Then, separate linear regressions would be performed of MPG vs. cost on the various models for each brand separately. Aa comparison of obtained slopes and y-intercepts for any results that have p-values lower than 0.05, should provide a decision for the hypothesis.
+To calculate this, first we would need to secure MPG and cost data for each car model on the other brands, as well as the MechaCar. Then, separate linear regressions would be performed of MPG vs. cost on the various models for each brand separately. A comparison of obtained slopes and y-intercepts for any results that have p-values lower than 0.05, should provide a decision for the hypothesis.
